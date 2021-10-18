@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;;
+}
+
+.first-section {
+    padding: 40px 20px;
+    width: 280px;
+
+}
+
+.heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(28,231,255);
+    font-weight: bold;
+}
+
+.first-line {
+    color: rgb(210,227,127);
+    margin-bottom: 10px;
+}
+
+.second-line {
+    color: rgb(186,167,171);
+}
+
+.second-section {
+    padding: 40px 20px;
+    background-color: rgb(44,178,177);
+    color: antiquewhite;
+}
+
+.Subscription {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.per {
+    font-weight: lighter;
+    opacity: 0.6;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 30px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+.one {
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(191,223,50);
+    height: 40px;
+    width: 180px;
+    margin-top: 20px;
+    color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+}
+
+.third-section {
+    background-color: rgb(73,193,191);
+    padding: 40px 20px;
+}
+
+.third-section p {
+    color: antiquewhite;  
+}
+
+.first-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .first-section {
+    font-size: 22px;
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  .first-section .heading {
+      font-size: 40px;
+  }
+
+  .first-section .first-line {
+      font-size: 30px;
+  }
+
+  .first-section .second-line {
+      font-size: 30px;
+  }
+
+  .second-section {
+    font-size: 22px;
+    padding-left: 40px;
+  }
+
+  .second-section .Subscription {
+      font-size: 30px;
+  }
+
+  .second-section .number {
+      font-size: 35px;
+  }
+
+  .second-section .per {
+      font-size: 28px;
+  }
+
+  .second-section .one {
+      font-size: 30px;
+      padding-bottom: 30px;
+  }
+
+  .second-section button {
+      height: 70px;
+      width: 350px;
+      font-size: 30px;
+      margin-top: 20px;
+  }
+
+  .third-section {
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 40px;
+  }
+
+  .third-section .first-heading {
+      font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+
+.second-section {
+    float: left;
+    width: 50%;
+    height: 375px;
+}
+
+.third-section {
+    float: right;
+    width: 50%;
+}
+}
